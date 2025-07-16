@@ -249,3 +249,20 @@ function openImageViewer(src) {
 function closeImageViewer() {
   document.getElementById('imageViewer').style.display = 'none';
 }
+function changeOversizedImage(index) {
+  document.getElementById("oversizedFront").src = `gaming/Oversized tshirt (Gaming)/front${index}.jpg`;
+  document.getElementById("oversizedBack").src = `gaming/Oversized tshirt (Gaming)/back${index}.jpg`;
+}
+
+function changePoloImage(index) {
+  document.getElementById("poloFront").src = `gaming/Polo Tshirt (Gaming)/front${index}.jpg`;
+  document.getElementById("poloBack").src = `gaming/Polo Tshirt (Gaming)/back${index}.jpg`;
+}
+function changeRoundMenImage(index) {
+  document.getElementById("roundMenFront").src = `gaming/Round Neck tshirt for men (Gaming)/front${index}.jpg`;
+  document.getElementById("roundMenBack").src = `gaming/Round Neck tshirt for men (Gaming)/back${index}.jpg`;
+}
+function changeRoundWomenImage(index) {
+  document.getElementById("roundWomenFront").src = `gaming/Round neck tshirt for Women (Gaming)/front${index}.jpg`;
+  document.getElementById("roundWomenBack").src = `gaming/Round neck tshirt for Women (Gaming)/back${index}.jpg`;
+}
