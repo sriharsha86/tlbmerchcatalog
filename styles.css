@@ -70,7 +70,7 @@ body.sidebar-active {
 .topbar {
   background: #444;
   color: white;
-  padding: 1rem 2rem;
+  padding: 0.8rem 2rem;
   position: fixed;
   width: 100%;
   top: 0;
@@ -85,9 +85,43 @@ body.sidebar-active {
   background: none;
   border: none;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   cursor: pointer;
+  margin-right: 1rem;
 }
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-img {
+  height: 40px;
+}
+
+.top-nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav .nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.top-nav .nav-links li a:hover,
+.top-nav .nav-links li a.active {
+  background-color: #666;
+}
+
 
 /* Sidebar */
 .sidebar {
@@ -273,11 +307,13 @@ main {
 }
 .coaster-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(5, 1fr); /* exactly 5 per row */
   gap: 1.5rem;
   margin-top: 2rem;
   animation: fadeIn 1s ease-in;
+  justify-items: center;
 }
+
 
 .coaster-grid img {
   width: 100%;
@@ -357,6 +393,13 @@ main {
   flex: 1 1 300px;
   max-width: 400px;
 }
+.product-info {
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 
 .color-swatches {
   display: flex;

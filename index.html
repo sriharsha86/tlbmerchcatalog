@@ -9,17 +9,26 @@
 <body>
   <!-- Top Grey Navbar -->
   <div class="topbar">
-    <button class="menu-button" onclick="toggleSidebar()">☰ Menu</button>
-    <div class="logo">
-      <img src="logo.png" alt="TLB Logo" style="height: 40px;">
-    </div>
+  <button class="menu-button" onclick="toggleSidebar()">☰ Menu</button>
+
+  <div class="logo-section">
+    <img src="logo.png" alt="TLB Logo" class="logo-img" />
   </div>
+
+  <nav class="top-nav">
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="gaming.html">Gaming</a></li>
+    </ul>
+  </nav>
+</div>
+
 
   <!-- Sidebar -->
   <div class="sidebar" id="sidebar">
     <ul>
       <li><a href="#bomber-jacket">Bomber Jacket</a></li>
-      <li><a href="#coasters">Coasters</a></li>
+      
       <li><a href="#crop-hoodies">Crop Hoodies</a></li>
       <li><a href="#crop-top">Crop Top</a></li>
       <li><a href="#full-sleeves">Full Sleeves</a></li>
@@ -39,6 +48,7 @@
       <li><a href="#sipper-bottle">Sipper Bottle</a></li>
       <li><a href="#sweatshirt">Sweatshirt</a></li>
       <li><a href="#totebags">Totebags</a></li>
+      <li><a href="#coasters">Coasters</a></li>
     </ul>
   </div>
 
@@ -567,9 +577,11 @@
  <section id="coasters" class="product-section">
   <div class="product-info">
     <h2>Coasters</h2>
-    <p><strong>Acrylic Price each (1 pc):</strong> ₹570</p>
-    <p><strong>Normal pc Price each (1 pc):</strong> ₹509</p>
-    <p><strong>Available Designs:</strong></p>
+    <div class="product-details">
+      <p><strong>Acrylic Price each (1 pc):</strong> ₹570</p>
+      <p><strong>Normal pc Price each (1 pc):</strong> ₹509</p>
+      <p><strong>Available Designs:</strong></p>
+    </div>
   </div>
 
   <div class="coaster-grid">
@@ -585,6 +597,7 @@
     <img src="10.jpg" alt="Coaster 10">
   </div>
 </section>
+
 
   </main>
 <!-- Image Viewer Overlay -->
