@@ -236,7 +236,7 @@ main {
   transform: scale(1.05);
 }
 
-.product-info {
+.product-info1 {
   max-width: 400px;
   background: #fafafa;
   padding: 1.5rem;
@@ -245,7 +245,7 @@ main {
   animation: fadeIn 1s ease;
 }
 
-.product-info h2 {
+.product-info1 h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
