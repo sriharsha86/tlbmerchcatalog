@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TLB Merchandise Catalog</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Grey Navbar -->
+  <div class="topbar">
+    <button class="menu-button" onclick="toggleSidebar()">☰ Menu</button>
+    <div class="logo">
+      <img src="logo.png" alt="TLB Logo" style="height: 40px;">
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <ul>
+      <li><a href="#bomber-jacket">Bomber Jacket</a></li>
+      <li><a href="#coasters">Coasters</a></li>
+      <li><a href="#crop-hoodies">Crop Hoodies</a></li>
+      <li><a href="#crop-top">Crop Top</a></li>
+      <li><a href="#full-sleeves">Full Sleeves</a></li>
+      <li><a href="#hoodies">Hoodies</a></li>
+      <li><a href="#inner-colored-mugs">Inner Colored Mugs</a></li>
+      <li><a href="#iphone-cover">iPhone Cover</a></li>
+      <li><a href="#joggers">Joggers</a></li>
+      <li><a href="#mouse-pads">Mouse Pads</a></li>
+      <li><a href="#notebooks">Notebooks</a></li>
+      <li><a href="#oversized-tshirt">Oversized T-Shirt</a></li>
+      <li><a href="#polo-tshirt">Polo T-Shirt</a></li>
+      <li><a href="#pop-grips">Pop Grips</a></li>
+      <li><a href="#premium-oversized">Premium Oversized T-Shirt</a></li>
+      <li><a href="#round-neck-men">Round Neck T-Shirt (Men)</a></li>
+      <li><a href="#round-neck-women">Round Neck T-Shirt (Women)</a></li>
+      <li><a href="#shorts">Shorts</a></li>
+      <li><a href="#sipper-bottle">Sipper Bottle</a></li>
+      <li><a href="#sweatshirt">Sweatshirt</a></li>
+      <li><a href="#totebags">Totebags</a></li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <h1 class="big-heading">TLB Merchandise Catalog</h1>
+  <main>
+    <section id="bomber-jacket" class="product-section">
+  <div class="product-card">
+    <img src="front.jpg" alt="Bomber Jacket Front">
+    <img src="back.jpg" alt="Bomber Jacket Back">
+    <div class="product-info">
+      <h2>Bomber Jacket</h2>
+      <p><strong>Price:</strong> ₹2499</p>
+      <p><strong>Available Sizes:</strong></p>
+      <div class="sizes">
+        <span>XS</span>
+        <span>S</span>
+        <span>M</span>
+        <span>L</span>
+        <span>XL</span>
+        <span>XXL</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="coasters" class="product-section">
+  <div class="product-info">
+    <h2>Coasters</h2>
+    <p><strong>Price per set (4 pcs):</strong> ₹499</p>
+    <p><strong>Available Designs:</strong></p>
+  </div>
+
+  <div class="coaster-grid">
+    <img src="1.jpg" alt="Coaster 1">
+    <img src="2.jpg" alt="Coaster 2">
+    <img src="3.jpg" alt="Coaster 3">
+    <img src="4.jpg" alt="Coaster 4">
+    <img src="5.jpg" alt="Coaster 5">
+    <img src="6.jpg" alt="Coaster 6">
+    <img src="7.jpg" alt="Coaster 7">
+    <img src="8.jpg" alt="Coaster 8">
+    <img src="9.jpg" alt="Coaster 9">
+    <img src="10.jpg" alt="Coaster 10">
+  </div>
+</section>
+
+    <section id="crop-hoodies" class="product-section">
+  <div class="product-card">
+    <img id="crop-front" src="Merchandise Products/Crop Hoodies/front1.jpg" alt="Front View" />
+    <img id="crop-back" src="Merchandise Products/Crop Hoodies/back1.jpg" alt="Back View" />
+    <div class="product-info">
+      <h2>Crop Hoodies</h2>
+      <p><strong>Price:</strong> ₹1899</p>
+      <p><strong>Available Sizes:</strong></p>
+      <div class="sizes">
+        <span>XS</span>
+        <span>S</span>
+        <span>M</span>
+        <span>L</span>
+        <span>XL</span>
+      </div>
+      <p style="margin-top: 1.2rem;"><strong>Choose Color:</strong></p>
+      <div class="color-options">
+        <span class="color-dot" data-index="1" style="background-color: black;"></span>
+        <span class="color-dot" data-index="2" style="background-color: white; border: 1px solid #ccc;"></span>
+        <span class="color-dot" data-index="3" style="background-color: lightgray;"></span>
+        <span class="color-dot" data-index="4" style="background-color: pink;"></span>
+        <span class="color-dot" data-index="5" style="background-color: maroon;"></span>
+        <span class="color-dot" data-index="6" style="background-color: forestgreen;"></span>
+        <span class="color-dot" data-index="7" style="background-color: red;"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+     <section id="crop-top" class="product-section">
+      <h2>Crop Top</h2>
+      <div class="product-card">
+        <div class="image-area">
+          <img id="cropTopFront" src="Merchandise Products/Crop top/front1.jpg" alt="Front View" />
+          <img id="cropTopBack" src="Merchandise Products/Crop top/back1.jpg" alt="Back View" />
+        </div>
+        <div class="product-details">
+          <p><strong>Price:</strong> ₹999</p>
+          <p><strong>Available Sizes:</strong> XS, S, M, L, XL, XXL</p>
+          <p><strong>Select Color:</strong></p>
+          <div class="color-swatches">
+            <div class="swatch" style="background-color:#C5AEE7" onclick="changeCropTopImage(1)"></div>
+            <div class="swatch" style="background-color:#F9B277" onclick="changeCropTopImage(2)"></div>
+            <div class="swatch" style="background-color:#33597D" onclick="changeCropTopImage(3)"></div>
+            <div class="swatch" style="background-color:#2F5A3D" onclick="changeCropTopImage(4)"></div>
+            <div class="swatch" style="background-color:#FFFFFF; border: 1px solid #ccc;" onclick="changeCropTopImage(5)"></div>
+            <div class="swatch" style="background-color:#FDFED0" onclick="changeCropTopImage(6)"></div>
+            <div class="swatch" style="background-color:#E8E8E8" onclick="changeCropTopImage(7)"></div>
+            <div class="swatch" style="background-color:#3D3D3D" onclick="changeCropTopImage(8)"></div>
+            <div class="swatch" style="background-color:#E51A2C" onclick="changeCropTopImage(9)"></div>
+            <div class="swatch" style="background-color:#FDC9D7" onclick="changeCropTopImage(10)"></div>
+            <div class="swatch" style="background-color:#E8B41D" onclick="changeCropTopImage(11)"></div>
+            <div class="swatch" style="background-color:#8D2A3B" onclick="changeCropTopImage(12)"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Full Sleeves -->
+<section id="full-sleeves" class="product-section">
+  <h2>Full Sleeves</h2>
+  <div class="product-card">
+    <div class="image-area">
+      <img id="fullSleevesFront" src="Merchandise Products/full sleeves/front1.jpg" alt="Front View" />
+      <img id="fullSleevesBack" src="Merchandise Products/full sleeves/back1.jpg" alt="Back View" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹899</p>
+      <p><strong>Available Sizes:</strong> XS, S, M, L, XL, XXL</p>
+      <p><strong>Select Color:</strong></p>
+      <div class="color-swatches">
+        <div class="swatch" style="background-color:#3D3D3D" onclick="changeFullSleevesImage(1)" title="Charcoal Grey"></div>
+        <div class="swatch" style="background-color:#2F5A3D" onclick="changeFullSleevesImage(2)" title="Dark Green"></div>
+        <div class="swatch" style="background-color:#33597D" onclick="changeFullSleevesImage(3)" title="Blue/Teal"></div>
+        <div class="swatch" style="background-color:#E51A2C" onclick="changeFullSleevesImage(4)" title="Red"></div>
+        <div class="swatch" style="background-color:#8D2A3B" onclick="changeFullSleevesImage(5)" title="Maroon"></div>
+        <div class="swatch" style="background-color:#FFFFFF; border: 1px solid #ccc;" onclick="changeFullSleevesImage(6)" title="White"></div>
+        <div class="swatch" style="background-color:#E8E8E8" onclick="changeFullSleevesImage(7)" title="Light Grey"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Section: Hoodies -->
+<section id="hoodies" class="product-section">
+  <h2>Hoodies</h2>
+  <div class="product-card">
+    <div class="image-area">
+      <img id="hoodiesFront" src="Merchandise Products/Hoodies/front1.jpg" alt="Front View" />
+      <img id="hoodiesBack" src="Merchandise Products/Hoodies/back1.jpg" alt="Back View" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹1099</p>
+      <p><strong>Available Sizes:</strong> XS, S, M, L, XL, XXL</p>
+      <p><strong>Select Color:</strong></p>
+      <div class="color-swatches">
+        <div class="swatch" style="background-color:#3D3D3D" onclick="changeHoodieImage(1)" title="Charcoal Grey"></div>
+        <div class="swatch" style="background-color:#E8B41D" onclick="changeHoodieImage(2)" title="Mustard Yellow"></div>
+        <div class="swatch" style="background-color:#FDC9D7" onclick="changeHoodieImage(3)" title="Light Pink"></div>
+        <div class="swatch" style="background-color:#33597D" onclick="changeHoodieImage(4)" title="Dark Blue/Teal"></div>
+        <div class="swatch" style="background-color:#E8E8E8" onclick="changeHoodieImage(5)" title="Light Grey"></div>
+        <div class="swatch" style="background-color:#A7D0EB" onclick="changeHoodieImage(6)" title="Light Blue"></div>
+        <div class="swatch" style="background-color:#E51A2C" onclick="changeHoodieImage(7)" title="Red"></div>
+        <div class="swatch" style="background-color:#FFFFFF; border:1px solid #ccc;" onclick="changeHoodieImage(8)" title="White"></div>
+        <div class="swatch" style="background-color:#8D2A3B" onclick="changeHoodieImage(9)" title="Maroon"></div>
+        <div class="swatch" style="background-color:#A0DBC9" onclick="changeHoodieImage(10)" title="Light Mint Green"></div>
+        <div class="swatch" style="background-color:#C5AEE7" onclick="changeHoodieImage(11)" title="Lavender"></div>
+        <div class="swatch" style="background-color:#2F5A3D" onclick="changeHoodieImage(12)" title="Dark Green"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Section: Inner Colored Mugs -->
+<section id="inner-colored-mugs" class="product-section">
+  <h2>Inner Colored Mugs</h2>
+  <div class="product-card">
+    <div class="image-area">
+      <img id="mugImage" src="Merchandise Products/Inner Colored Mugs/1.jpg" alt="Mug Preview" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹499</p>
+      <p><strong>Capacity:</strong> 325ml</p>
+      <p><strong>Select Inner Color:</strong></p>
+      <div class="color-swatches">
+        <div class="swatch" style="background-color:#2A2F61" onclick="changeMugImage(1)" title="Navy Blue"></div>
+        <div class="swatch" style="background-color:#A0DBC9" onclick="changeMugImage(2)" title="Light Green"></div>
+        <div class="swatch" style="background-color:#F67B00" onclick="changeMugImage(3)" title="Orange"></div>
+        <div class="swatch" style="background-color:#E51A2C" onclick="changeMugImage(4)" title="Red"></div>
+        <div class="swatch" style="background-color:#F8E71C" onclick="changeMugImage(5)" title="Yellow"></div>
+        <div class="swatch" style="background-color:#A7D0EB" onclick="changeMugImage(6)" title="Light Blue"></div>
+        <div class="swatch" style="background-color:#FFFFFF; border: 1px solid #ccc;" onclick="changeMugImage(7)" title="White"></div>
+        <div class="swatch" style="background-color:#2F2F2F" onclick="changeMugImage(8)" title="Black"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Section: iPhone Cover -->
+<section id="iphone-cover" class="product-section">
+  <h2>iPhone Cover</h2>
+  <div class="product-card">
+    <div class="image-area">
+      <img src="Merchandise Products/iPhone Cover/1.jpg" alt="iPhone Cover" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹399</p>
+      <p><strong>Available Models:</strong> iPhone 11, 12, 13, 14 (All variants)</p>
+      <p><strong>Description:</strong></p>
+      <p>Sleek, durable, and stylish — this iPhone cover adds a layer of protection and aesthetic to your device without compromising grip or form factor.</p>
+    </div>
+  </div>
+</section>
+
+    <!-- Section: Joggers -->
+<section id="joggers" class="product-section">
+  <h2>Joggers</h2>
+  <div class="product-card">
+    <div class="image-area">
+      <img id="joggersImage" src="Merchandise Products/Joggers/1.jpg" alt="Joggers Preview" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹899</p>
+      <p><strong>Available Sizes:</strong> S, M, L, XL, XXL</p>
+      <p><strong>Select Color:</strong></p>
+      <div class="color-swatches">
+        <div class="swatch" style="background-color:#1D1D1D" onclick="changeJoggersImage(1)" title="Black"></div>
+        <div class="swatch" style="background-color:#2B354B" onclick="changeJoggersImage(2)" title="Navy Blue"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Section: Mouse Pads -->
+<section id="mouse-pads" class="product-section">
+  <h2>Mouse Pads</h2>
+  <div class="product-card">
+    <div class="image-area">
+      <img src="Merchandise Products/Mouse Pads/1.jpg" alt="Mouse Pad Design 1" />
+      <img src="Merchandise Products/Mouse Pads/2.jpg" alt="Mouse Pad Design 2" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹299 each</p>
+      <p><strong>Size:</strong> 9.5 x 7.5 inches</p>
+      <p>Choose from two premium quality mouse pad designs with anti-skid rubber base and vibrant prints. Perfect for work or gaming setups.</p>
+    </div>
+  </div>
+</section>
+
+    <!-- Section: Notebook -->
+<section id="notebooks" class="product-section">
+  <h2>Notebook</h2>
+  <div class="product-card">
+    <div class="image-area">
+      <img src="Merchandise Products/Notebooks/1.jpg" alt="TLB Notebook" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹299</p>
+      <p><strong>Pages:</strong> 120 Ruled Pages</p>
+      <p><strong>Size:</strong> A5 (5.8 x 8.3 in)</p>
+      <p><strong>Cover:</strong> Soft-touch laminated cover with matte finish</p>
+    </div>
+  </div>
+</section>
+
+    <!-- Section: Oversized T-Shirt -->
+<section id="oversized-tshirt" class="product-section">
+  <h2>Oversized T-Shirt</h2>
+  <div class="product-card">
+    <div class="image-area">
+      <img id="oversizedFront" src="Merchandise Products/Oversized tshirt/front1.jpg" alt="Front View" />
+      <img id="oversizedBack" src="Merchandise Products/Oversized tshirt/back1.jpg" alt="Back View" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹799</p>
+      <p><strong>Available Sizes:</strong> XS, S, M, L, XL, XXL</p>
+      <p><strong>Select Color:</strong></p>
+      <div class="color-swatches">
+        <div class="swatch" style="background-color:#1D1D1D" onclick="changeOversizedImage(1)" title="Black"></div>
+        <div class="swatch" style="background-color:#C5AEE7" onclick="changeOversizedImage(2)" title="Lavender"></div>
+        <div class="swatch" style="background-color:#A7D0EB" onclick="changeOversizedImage(3)" title="Light Blue"></div>
+        <div class="swatch" style="background-color:#33597D" onclick="changeOversizedImage(4)" title="Teal"></div>
+        <div class="swatch" style="background-color:#C56E63" onclick="changeOversizedImage(5)" title="Terracotta"></div>
+        <div class="swatch" style="background-color:#1D1D1D" onclick="changeOversizedImage(6)" title="Black"></div>
+        <div class="swatch" style="background-color:#6F7D93" onclick="changeOversizedImage(7)" title="Slate Blue"></div>
+        <div class="swatch" style="background-color:#E51A2C" onclick="changeOversizedImage(8)" title="Red"></div>
+        <div class="swatch" style="background-color:#2237A8" onclick="changeOversizedImage(9)" title="Blue"></div>
+        <div class="swatch" style="background-color:#8D2A3B" onclick="changeOversizedImage(10)" title="Maroon"></div>
+        <div class="swatch" style="background-color:#FFFFFF; border: 1px solid #ccc;" onclick="changeOversizedImage(11)" title="White"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Section: Polo T-Shirt -->
+<section id="polo-tshirt" class="product-section">
+  <h2>Polo T-Shirt</h2>
+  <div class="product-card">
+    <div class="image-area">
+      <img id="poloFront" src="Merchandise Products/Polo tshirt/front1.jpg" alt="Front View" />
+      <img id="poloBack" src="Merchandise Products/Polo tshirt/back1.jpg" alt="Back View" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹849</p>
+      <p><strong>Available Sizes:</strong> S, M, L, XL, XXL</p>
+      <p><strong>Select Color:</strong></p>
+      <div class="color-swatches">
+        <div class="swatch" style="background-color:#3D3D3D" onclick="changePoloImage(1)" title="Charcoal Grey"></div>
+        <div class="swatch" style="background-color:#33597D" onclick="changePoloImage(2)" title="Teal Blue"></div>
+        <div class="swatch" style="background-color:#E51A2C" onclick="changePoloImage(3)" title="Red"></div>
+        <div class="swatch" style="background-color:#FDC9D7" onclick="changePoloImage(4)" title="Light Pink"></div>
+        <div class="swatch" style="background-color:#FFFFFF; border: 1px solid #ccc;" onclick="changePoloImage(5)" title="White"></div>
+        <div class="swatch" style="background-color:#E8E8E8" onclick="changePoloImage(6)" title="Light Grey"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Section: Pop Grips -->
+<section id="pop-grips" class="product-section">
+  <h2>Pop Grips</h2>
+  <div class="product-card">
+    <div class="image-area">
+      <img src="Merchandise Products/Pop Grips/1.webp" alt="Pop Grip Design 1" />
+      <img src="Merchandise Products/Pop Grips/2.webp" alt="Pop Grip Design 2" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹149 each</p>
+      <p><strong>Description:</strong></p>
+      <p>Durable, stylish pop grips that improve your phone grip and double as a stand. Choose from two vibrant designs to match your vibe.</p>
+    </div>
+  </div>
+</section>
+
+    <!-- Section: Premium Oversized T-Shirt -->
+<section id="premium-oversized-tshirt" class="product-section">
+  <h2>Premium Oversized T-Shirt</h2>
+  <div class="product-card">
+    <div class="image-area">
+      <img id="premiumOversizedFront" src="Merchandise Products/Premium Oversized tshirt/front1.jpg" alt="Front View" />
+      <img id="premiumOversizedBack" src="Merchandise Products/Premium Oversized tshirt/back1.jpg" alt="Back View" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹899</p>
+      <p><strong>Available Sizes:</strong> S, M, L, XL, XXL</p>
+      <p><strong>Select Color:</strong></p>
+      <div class="color-swatches">
+        <div class="swatch" style="background-color:#3D3D3D" onclick="changePremiumOversizedImage(1)" title="Charcoal Grey"></div>
+        <div class="swatch" style="background-color:#F9B277" onclick="changePremiumOversizedImage(2)" title="Peach/Orange"></div>
+        <div class="swatch" style="background-color:#E56E55" onclick="changePremiumOversizedImage(3)" title="Burnt Orange"></div>
+        <div class="swatch" style="background-color:#3B4D63" onclick="changePremiumOversizedImage(4)" title="Dark Blue"></div>
+        <div class="swatch" style="background-color:#E8DBC9" onclick="changePremiumOversizedImage(5)" title="Light Beige"></div>
+        <div class="swatch" style="background-color:#E8E8E8" onclick="changePremiumOversizedImage(6)" title="Light Grey"></div>
+        <div class="swatch" style="background-color:#FFFFFF; border: 1px solid #ccc;" onclick="changePremiumOversizedImage(7)" title="White"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Section: Round Neck T-Shirt for Men -->
+<section id="round-neck-men" class="product-section">
+  <h2>Round Neck T-Shirt for Men</h2>
+  <div class="product-card">
+    <div class="image-area">
+      <img id="roundMenFront" src="Merchandise Products/round neck tshirt for men/front1.jpg" alt="Front View" />
+      <img id="roundMenBack" src="Merchandise Products/round neck tshirt for men/back1.jpg" alt="Back View" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹749</p>
+      <p><strong>Available Sizes:</strong> S, M, L, XL, XXL</p>
+      <p><strong>Select Color:</strong></p>
+      <div class="color-swatches">
+        <!-- 24 swatches -->
+        <div class="color-swatches">
+  <div class="swatch" style="background-color:#FFFFFF; border: 1px solid #ccc;" onclick="changeRoundMenImage(1)" title="White"></div>
+  <div class="swatch" style="background-color:#87CEEB" onclick="changeRoundMenImage(2)" title="Sky Blue"></div>
+  <div class="swatch" style="background-color:#FFC0CB" onclick="changeRoundMenImage(3)" title="Baby Pink"></div>
+  <div class="swatch" style="background-color:#FFA500" onclick="changeRoundMenImage(4)" title="Orange"></div>
+  <div class="swatch" style="background-color:#D3D3D3" onclick="changeRoundMenImage(5)" title="Heather Gray"></div>
+  <div class="swatch" style="background-color:#fbdadf" onclick="changeRoundMenImage(6)" title="pink"></div>
+  <div class="swatch" style="background-color:#FFFFFc" onclick="changeRoundMenImage(7)" title="white"></div>
+  <div class="swatch" style="background-color:#feb5ff" onclick="changeRoundMenImage(8)" title="purple"></div>
+  <div class="swatch" style="background-color:#FFD700" onclick="changeRoundMenImage(9)" title="Gold / Yellow"></div>
+  <div class="swatch" style="background-color:#FFFFCC" onclick="changeRoundMenImage(10)" title="Pale Yellow"></div>
+        <div class="swatch" style="background-color:#F5F5DC" onclick="changeRoundMenImage(11)"></div>
+        <div class="swatch" style="background-color:#36454F" onclick="changeRoundMenImage(12)"></div>
+        <div class="swatch" style="background-color:#A52A2A" onclick="changeRoundMenImage(14)"></div>
+        <div class="swatch" style="background-color:#004C54" onclick="changeRoundMenImage(17)"></div>
+        <div class="swatch" style="background-color:#FF0000" onclick="changeRoundMenImage(18)"></div>
+        <div class="swatch" style="background-color:#C0C0C0" onclick="changeRoundMenImage(19)"></div>
+        <div class="swatch" style="background-color:#800000" onclick="changeRoundMenImage(20)"></div>
+        <div class="swatch" style="background-color:#228B22" onclick="changeRoundMenImage(21)"></div>
+        <div class="swatch" style="background-color:#FFA500" onclick="changeRoundMenImage(22)"></div>
+        <div class="swatch" style="background-color:#8D9CB6" onclick="changeRoundMenImage(23)"></div>
+        <div class="swatch" style="background-color:#4169E1" onclick="changeRoundMenImage(24)"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Section: Round Neck T-Shirt for Women -->
+<section id="round-neck-women" class="product-section">
+  <h2>Round Neck T-Shirt for Women</h2>
+  <div class="product-card">
+    <div class="image-area">
+      <img id="roundWomenFront" src="Merchandise Products/round neck tshirt for women/front1.jpg" alt="Front View" />
+      <img id="roundWomenBack" src="Merchandise Products/round neck tshirt for women/back1.jpg" alt="Back View" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹749</p>
+      <p><strong>Available Sizes:</strong> XS, S, M, L, XL</p>
+      <p><strong>Select Color:</strong></p>
+      <div class="color-swatches">
+        <div class="swatch" style="background-color:#36454F" onclick="changeRoundWomenImage(1)" title="Dark Gray"></div>
+        <div class="swatch" style="background-color:#36454F" onclick="changeRoundWomenImage(2)" title="Dark Gray"></div>
+        <div class="swatch" style="background-color:#4169E1" onclick="changeRoundWomenImage(3)" title="Royal Blue"></div>
+        <div class="swatch" style="background-color:#FFFFE0" onclick="changeRoundWomenImage(4)" title="Pale Yellow"></div>
+        <div class="swatch" style="background-color:#A0522D" onclick="changeRoundWomenImage(5)" title="Brown"></div>
+        <div class="swatch" style="background-color:#228B22" onclick="changeRoundWomenImage(6)" title="Forest Green"></div>
+        <div class="swatch" style="background-color:#D3D3D3" onclick="changeRoundWomenImage(7)" title="Light Gray"></div>
+        <div class="swatch" style="background-color:#FFFFFF; border: 1px solid #ccc;" onclick="changeRoundWomenImage(8)" title="White"></div>
+        <div class="swatch" style="background-color:#800000" onclick="changeRoundWomenImage(9)" title="Maroon"></div>
+        <div class="swatch" style="background-color:#FFDAB9" onclick="changeRoundWomenImage(10)" title="Peach"></div>
+        <div class="swatch" style="background-color:#DAA520" onclick="changeRoundWomenImage(11)" title="Goldenrod"></div>
+        <div class="swatch" style="background-color:#32CD32" onclick="changeRoundWomenImage(12)" title="Lime Green"></div>
+        <div class="swatch" style="background-color:#FFC0CB" onclick="changeRoundWomenImage(13)" title="Light Pink"></div>
+        <div class="swatch" style="background-color:#008080" onclick="changeRoundWomenImage(14)" title="Teal"></div>
+        <div class="swatch" style="background-color:#E6E6FA" onclick="changeRoundWomenImage(15)" title="Lavender"></div>
+        <div class="swatch" style="background-color:#FFA500" onclick="changeRoundWomenImage(16)" title="Orange"></div>
+        <div class="swatch" style="background-color:#FF0000" onclick="changeRoundWomenImage(17)" title="Red"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Section: Shorts -->
+<section id="shorts" class="product-section">
+  <h2>Shorts</h2>
+  <div class="product-card">
+    <div class="image-area single">
+      <img id="shortsImage" src="Merchandise Products/shorts/black.jpg" alt="Shorts" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹599</p>
+      <p><strong>Available Sizes:</strong> S, M, L, XL</p>
+      <p><strong>Select Color:</strong></p>
+      <div class="color-swatches">
+        <div class="swatch" style="background-color:#1D1D1D" onclick="changeShortsImage('black')" title="Black"></div>
+        <div class="swatch" style="background-color:#2237A8" onclick="changeShortsImage('blue')" title="Blue"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Section: Sipper Bottle -->
+<section id="sipper-bottle" class="product-section">
+  <h2>Sipper Bottle</h2>
+  <div class="product-card">
+    <div class="image-area single">
+      <img src="Merchandise Products/sipper bottle/1.jpg" alt="Sipper Bottle" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹499</p>
+      <p><strong>Capacity:</strong> 750ml</p>
+      <p><strong>Material:</strong> Stainless Steel</p>
+    </div>
+  </div>
+</section>
+
+    <!-- Section: Sweatshirt -->
+<section id="sweatshirt" class="product-section">
+  <h2>Sweatshirt</h2>
+  <div class="product-card">
+    <div class="image-area">
+      <img id="sweatshirtFront" src="Merchandise Products/sweatshirt/front1.jpg" alt="Front View" />
+      <img id="sweatshirtBack" src="Merchandise Products/sweatshirt/back1.jpg" alt="Back View" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹899</p>
+      <p><strong>Available Sizes:</strong> S, M, L, XL, XXL</p>
+      <p><strong>Select Color:</strong></p>
+      <div class="color-swatches">
+        <div class="swatch" style="background-color:#E6E6FA" onclick="changeSweatshirtImage(1)" title="Lavender"></div>
+        <div class="swatch" style="background-color:#98FF98" onclick="changeSweatshirtImage(2)" title="Mint Green"></div>
+        <div class="swatch" style="background-color:#228B22" onclick="changeSweatshirtImage(3)" title="Forest Green"></div>
+        <div class="swatch" style="background-color:#008080" onclick="changeSweatshirtImage(4)" title="Teal Blue"></div>
+        <div class="swatch" style="background-color:#FF0000" onclick="changeSweatshirtImage(5)" title="Red"></div>
+        <div class="swatch" style="background-color:#36454F" onclick="changeSweatshirtImage(6)" title="Dark Gray"></div>
+        <div class="swatch" style="background-color:#800000" onclick="changeSweatshirtImage(7)" title="Maroon"></div>
+        <div class="swatch" style="background-color:#DAA520" onclick="changeSweatshirtImage(8)" title="Gold"></div>
+        <div class="swatch" style="background-color:#DCDCDC" onclick="changeSweatshirtImage(9)" title="Light Gray"></div>
+        <div class="swatch" style="background-color:#FFC0CB" onclick="changeSweatshirtImage(10)" title="Pink"></div>
+        <div class="swatch" style="background-color:#FFFFFF; border: 1px solid #ccc;" onclick="changeSweatshirtImage(11)" title="White"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Section: Totebags -->
+<section id="totebags" class="product-section">
+  <h2>Totebags</h2>
+  <div class="product-card">
+    <div class="image-area single">
+      <img id="totebagImage" src="Merchandise Products/Totebags/1.jpg" alt="Totebag" />
+    </div>
+    <div class="product-details">
+      <p><strong>Price:</strong> ₹349</p>
+      <p><strong>Material:</strong> Cotton Canvas</p>
+      <p><strong>Select Design:</strong></p>
+      <div class="color-swatches">
+        <div class="swatch" style="background-color:#4B371C" onclick="changeTotebagImage(1)" title="Dark Brown"></div>
+        <div class="swatch" style="background-color:#000080" onclick="changeTotebagImage(2)" title="Navy Blue"></div>
+        <div class="swatch" style="background-color:#F8F0E3" onclick="changeTotebagImage(3)" title="Ecru"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+<!-- Image Viewer Overlay -->
+<div id="imageViewer" class="image-viewer">
+  <span class="close-btn" onclick="closeImageViewer()">×</span>
+  <img id="viewerImage" src="" alt="Zoomed Product" />
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
