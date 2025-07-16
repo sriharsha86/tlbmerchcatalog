@@ -249,20 +249,20 @@ function openImageViewer(src) {
 function closeImageViewer() {
   document.getElementById('imageViewer').style.display = 'none';
 }
-function changeOversizedImage(index) {
-  document.getElementById("oversizedFront").src = `gaming/Oversized tshirt (Gaming)/front${index}.jpg`;
-  document.getElementById("oversizedBack").src = `gaming/Oversized tshirt (Gaming)/back${index}.jpg`;
+function changeOversizedImage1(index) {
+  document.getElementById("oversizedgamingFront").src = `gaming/Oversized tshirt (Gaming)/front${index}.jpg`;
+  document.getElementById("oversizedgamingBack").src = `gaming/Oversized tshirt (Gaming)/back${index}.jpg`;
 }
 
-function changePoloImage(index) {
-  document.getElementById("poloFront").src = `gaming/Polo Tshirt (Gaming)/front${index}.jpg`;
-  document.getElementById("poloBack").src = `gaming/Polo Tshirt (Gaming)/back${index}.jpg`;
+function changePoloImage1(index) {
+  document.getElementById("pologamingFront").src = `gaming/Polo Tshirt (Gaming)/front${index}.jpg`;
+  document.getElementById("pologamingBack").src = `gaming/Polo Tshirt (Gaming)/back${index}.jpg`;
 }
-function changeRoundMenImage(index) {
-  document.getElementById("roundMenFront").src = `gaming/Round Neck tshirt for men (Gaming)/front${index}.jpg`;
-  document.getElementById("roundMenBack").src = `gaming/Round Neck tshirt for men (Gaming)/back${index}.jpg`;
+function changeRoundMenImage1(index) {
+  document.getElementById("roundMengamingFront").src = `gaming/Round Neck tshirt for men (Gaming)/front${index}.jpg`;
+  document.getElementById("roundMengamingBack").src = `gaming/Round Neck tshirt for men (Gaming)/back${index}.jpg`;
 }
-function changeRoundWomenImage(index) {
-  document.getElementById("roundWomenFront").src = `gaming/Round neck tshirt for Women (Gaming)/front${index}.jpg`;
-  document.getElementById("roundWomenBack").src = `gaming/Round neck tshirt for Women (Gaming)/back${index}.jpg`;
+function changeRoundWomenImage1(index) {
+  document.getElementById("roundWomengamingFront").src = `gaming/Round neck tshirt for Women (Gaming)/front${index}.jpg`;
+  document.getElementById("roundWomengamingBack").src = `gaming/Round neck tshirt for Women (Gaming)/back${index}.jpg`;
 }
